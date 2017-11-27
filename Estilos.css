@@ -1,0 +1,159 @@
+*{
+	padding:5px;
+}
+
+#contenedor{
+  width:100%;
+}
+
+.navegador {
+  width: 100%;
+  height:100px;
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  left:0;
+  padding:0;
+  background-image: url(Img/sky3.jpg);
+  
+}
+
+#contenedor .navegador .navbar #name {
+	font-family: 'Cabin Sketch', cursive;
+	font-size:35px;
+	color: RGB(178, 12, 72);
+	margin-top:-20px;
+	
+}
+
+#contenedor .navegador .navbar a {
+	
+	color: white;
+	font-size:20px;
+	padding-left:55px;
+	text-align:center;
+
+}
+
+
+.display-3{
+	color: white;
+	font-family: 'Yellowtail', cursive;
+	font-size:50px;
+
+}
+
+body{ background-color: black;
+}
+
+
+.btn-outline-secondary{
+   height:60px;
+   margin:0 30px;
+}
+
+.lead{
+	text-align:justify;
+	color:white;
+}
+
+.Entrevistas h1{
+	color:rgb(187, 143, 206);
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Entrevistas{
+  text-align:justify;
+  display:block;
+}
+
+#pequeño{
+width:80px;
+height:50px;
+}
+
+#sabana{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	display:none;
+	z-index:999;
+	top:0%;
+	left:0;
+}
+.primera{
+	margin-left:90px;
+}
+
+#sabana2{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	display:none;
+	z-index:999;
+	top:0%;
+	left:0;
+}
+.segunda{
+	margin-left:200px;
+}
+
+#sabana3{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	display:none;
+	z-index:999;
+	top:0%;
+	left:0;
+}
+
+.tercera{
+	margin-left:460px;
+}
+
+#sabana4{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	display:none;
+	z-index:999;
+	top:0%;
+	left:0;
+}
+
+.cuarta{
+	margin-left:300px;
+}
+
+#conceptos{
+text-align:center
+}
+
+.Definiciones h1{
+	color: rgb(88, 214, 141);
+}
+
+.Definiciones p{
+	color:white;
+}
+
+
+.BusquedaLaboral{
+	background-color:white;
+	text-align:justify;
+}
+
+#carousel slide{
+	float:right;
+}
+
+#laboral h1{
+	text-align:center;
+}
+
