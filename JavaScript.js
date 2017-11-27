@@ -12,11 +12,6 @@ $(document).ready(function(){
 	});
 	
 	
-	$("#pequeñoRita").click(function(){
-	  $("#sabana").css("display","block");
-	  $("#ventana").css("display","block");
-    });
-	
 	$("#pequeñoFabian").click(function(){
 	  $("#sabana2").css("display","block");
 	  $("#ventana2").css("display","block");
