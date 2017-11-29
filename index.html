@@ -6,8 +6,7 @@
 
 <link type="text/css" href="bootstrap.css" rel="stylesheet"/>
 
-
-<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Josefin+Sans|Pacifico|Yellowtail" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Marck+Script|Playball" rel="stylesheet">
 
 
 
@@ -27,7 +26,7 @@
    <div class="navegador">
    <div class="container">
       <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" id="name" href="#">Denise <br> Laureiro</a>
+  <a class="navbar-brand" id="name" href="#">Denise Laureiro</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -61,16 +60,16 @@
    </div>
    </div>   
 
-<img class="portada" src="Img/obra.jpg"  height="650px" width="100%">
+<img class="portada" id="obra" src="Img/obra.jpg">
 
 
 <section class= "Introducción">
    
        <div class="jumbotron\D\D">
        <div class="container">
-       <h1 class="display-3">Presentación</h1>
+       <h1 class="display-3">Bienvenidos</h1>
 	   
-       <p class="lead">Bienvenidos a mi página personal, mi nombre es Denise Laureiro y tengo 22 años. 
+       <p class="lead">Mi nombre es Denise Laureiro y tengo 22 años. 
 	   Estoy cursando primer año de la Licenciatura en Comunicaciones. Elegí esta carrera porque me resultó interesante y
 	   considero va de la mano con mi personalidad. Me gusta estar aprendiendo nuevas cosas, trabajar en equipo y ser creativa.
 	   Realicé el bachillerato en Turismo y también estudié Teatro durante tres años y es algo que me apasiona. Con relación al 
@@ -80,6 +79,87 @@
 	     <button type="button" id="abstract" class="btn btn-outline-dark">Traducir al Inglés</button> </p>
 	   
  </section>
+ 
+ <section class= "Objetivos">
+ 
+   <div class="jumbotron\D\D">
+       <div class="container">
+       <h1 class="display-4">Objetivos 2018</h1>
+ 
+ <div class="row">
+      <div class="col-lg-6">
+	  
+ <div id="accordion" role="tablist">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Objetivos a corto plazo
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+⦁	Cambiar de empleo, ingresando al mercado laboral como desarrolladora web junior o comenzando en algún empleo relacionado 
+a lo que aprendí a lo largo del curso Jóvenes a Programar. <br>
+⦁	Terminar un curso de Diseño Web que empecé pero tuve que postergarlo.<br>
+⦁	Comenzar un curso de Inglés.    
+	</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Objetivos a largo plazo
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+    ⦁	Recibirme de Licenciada en Comunicaciones. <br>
+    ⦁   Comprarme una casa o apartamento.
+	</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Objetivos personales
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+⦁	Poder viajar a Europa a visitar a una amiga que vive allá hace 2 años. <br>
+⦁	Mudarme con mi pareja. <br>
+⦁	Grabar un cortometraje. <br>
+⦁	Escribir un libro.
+     </div>
+    </div>
+  </div>
+</div>
+</div> 
+
+
+      <div class="col-lg-6">
+	  
+ <button class="cv">
+  <img src="img/cvitae.png" class="curriculum">
+ </button>
+	  
+ <button class="carta">
+  <img src="img/cartad.png" class="cartaa">
+ </button>
+	 
+	</div>
+</div>
+ 
+ </section>
+ 
+ 
 	   
 <section id="entrevistas" class="Entrevistas">
 
@@ -87,7 +167,7 @@
 	  
 	<div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="Img/Rita.jpg" width="150px" height="180px" alt="Card image cap">
+    <img class="card-img-top" id="rita" src="Img/Rita.jpg" alt="Rita">
     <div class="card-body">
       <h4 class="card-title">Rita Marquisio</h4>
       <p class="card-text">A lo largo de este año fue nuestra docente de Competencias Transversales, la cual nos 
@@ -95,90 +175,130 @@
 	  otras cosas. A continuación podemos ver algunas frases suyas durante una 
 	  entrevista que le realizamos.</p>
 	  
-   <p class="card-text"> <button type="button" class="btn btn-outline-dark" class="btn btn-outline-dark"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ver más</button>
+   <p class="card-text"> <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-example-modal-lg">Ver más</button>
       
   </div>
   </div>
   
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	      <div class="modal-header">
+
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
+         </div>
       <div class="modal-body">
-	  
-	   <img class="primera" src="img/primera.jpg" width="1150px" height="630px">  
-        
-      </div>
-     
+	 
+	   <img class="primera" src="img/primera.jpg">     
+	  </div>  
     </div>
   </div>
 </div>
   
     
   <div class="card">
-    <img class="card-img-top" src="Img/Fabian.jpg" width="150px" height="180px" alt="Card image cap">
+    <img class="card-img-top" id="fabian" src="Img/Fabian.jpg" alt="fabian">
     <div class="card-body">
       <h4 class="card-title">Fabián Coito</h4>
       <p class="card-text">Exfutbolista y el entrenador actual de la selección sub-20 de Uruguay. A lo largo del
 	  año vimos algunas de sus charlas y entrevistas en las cuales cuenta sobre sus experiencias. Pueden encontrar algunas
 	  de sus frases más importantes y motivacionales haciendo click en Ver más.</p> <br>
-      <p class="card-text"> <button type="button" id="pequeñoFabian" class="btn btn-outline-dark">Ver más</button></p>
+   
+  
+    <p class="card-text"> <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#fabian">Ver más</button>
+      
+    </div>
+	</div>
+  
+  <div class="modal fade bd-example-modal-lg" id="fabian" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+	      <div class="modal-header">
+
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+         </div>
+      <div class="modal-body">
+	 
+	   <img class="segunda" src="img/cuarta.jpg">     
+	  </div>  
     </div>
   </div>
+</div>
   
-   <div id="sabana2">
-    <div id="ventana2">
-      
-      <img class="segunda" src="img/fabian3.jpg" width="970px" height="640px">  
-	  
-	  <input type="button" class="close" value="X" />
-    </div>
- </div>
-    
+  
+ 
+  
+  
+  
   <div class="card">
-    <img class="card-img-top" src="Img/Sebastian.jpg" width="150px" height="180px" alt="Card image cap">
+    <img class="card-img-top" id="sebastian" src="Img/Sebastian.jpg" alt="sebastian">
     <div class="card-body">
       <h4 class="card-title">Sebastián Caggiano</h4>
       <p class="card-text">Docente de Desarrollo Web durante el curso de JaP. Quien nos enseño como crear una página desde 
 	  lo teórico hasta lo práctico ademas de otras herramientas.
 	  Clickeando en ver más pueden encontrar las frases que me resultaron más interesantes e importantes que él dijo durante
-	  una entrevista.</p>
-	  <p class="card-text"> <button type="button" id="pequeñoSebastian" class="btn btn-outline-dark">Ver más</button></p>
-    </div>
+	  una entrevista.</p> <br>
+	  
+	    <p class="card-text"> <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#sebastian">Ver más</button>
+      
+  </div>
   </div>
   
-  <div id="sabana3">
-    <div id="ventana3">
-      
-      <img class="tercera" src="img/Seba.jpg" width="440px" height="620px">  
-	  
-	  <input type="button" class="close" value="X" />
-    </div>
- </div>
+  <div class="modal fade bd-example-modal-lg" id="sebastian" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+	      <div class="modal-header">
 
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+         </div>
+      <div class="modal-body">
+	 
+	   <img class="tercera" src="img/tercera.jpg">     
+	  </div>  
+    </div>
+  </div>
+</div>
+  
+	  
+	  
+	  
+	  
   <div class="card">
-    <img class="card-img-top" src="Img/Santiagobyn.jpg" width="150px" height="180px" alt="Card image cap">
+    <img class="card-img-top" id="santiago" src="Img/Santiagobyn.jpg" alt="santiago">
     <div class="card-body">
       <h4 class="card-title">Santiago Fernández</h4>
       <p class="card-text">Director de Orange Attitude Consultancy & Digital Agency, Speaker y Docente de Marketing Digital
 	  Universidad ORT Uruguay. A continuación pueden leer algunas de sus frases más destacadas durante el evento
 	  de Genexus.</p> <br> <br> <br>
-	  <p class="card-text"> <button type="close" id="pequeñoSantiago" class="btn btn-outline-dark">Ver más</button></p>
-    </div>
+	  
+	   <p class="card-text"> <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#santiago">Ver más</button>
+      
+  </div>
   </div>
   
-  <div id="sabana4">
-    <div id="ventana4">
-      
-      <img class="cuarta" src="img/santiago.jpg" width="816px" height="607px">  
-	  
-	  <input type="button" class="close" value="X" />
+  <div class="modal fade bd-example-modal-lg" id="santiago" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+	      <div class="modal-header">
+
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+         </div>
+      <div class="modal-body">
+	 
+	   <img class="cuarta" src="img/segunda.jpg">     
+	  </div>  
     </div>
- </div>
-  
+  </div>
 </div>
+  
 
 </section>
 <br>
@@ -334,7 +454,7 @@ data-content="Se desarrollan a lo largo de nuestras vidas y nos permiten organiz
 
 <div class="row">
 
-<div class="col-sm-6">
+<div class="col-lg-6">
 
 
 <h1>Busqueda Laboral</h1>
@@ -353,7 +473,7 @@ por ejemplo, ya que esto podría ayudarnos en el caso de ser llamados para una e
 
 </div>
 
-<div class="col-sm-6">
+<div class="col-lg-6">
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -386,33 +506,7 @@ por ejemplo, ya que esto podría ayudarnos en el caso de ser llamados para una e
 
 </section>
 
-<p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" 
-  aria-controls="multiCollapseExample1">Currículum Vitae</a>
-  
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" 
-  aria-expanded="false" aria-controls="multiCollapseExample2">Carta de Pesentación</button>
-</p>
-<div class="row">
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample1">
-      <div class="card card-body">
-        
-		<img src="img/curriculumA.jpg" width="600" height="800">
 
-		
-		
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="card card-body">
-	  <img src="img/Carta.jpg" width="650" height="800">
-	  </div>
-    </div>
-  </div>
-</div>
 
 
 <section id="galería" class="Galería">

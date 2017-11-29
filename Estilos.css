@@ -14,16 +14,16 @@
   top:0;
   left:0;
   padding:0;
-  background-image: url(Img/sky3.jpg);
+  background-image: url(Img/sky2.jpg);
   
 }
 
 #contenedor .navegador .navbar #name {
 
-	font-size:35px;
+	font-size:45px;
 	color: RGB(178, 12, 72);
 	margin-top:-20px;
-	
+	font-family:'Marck Script', cursive;
 }
 
 #contenedor .navegador .navbar a {
@@ -35,13 +35,52 @@
 
 }
 
+#obra{
+	height:650px;
+	width:100%;
+}
+
 
 .display-3{
 	color: white;
-	font-family: 'Yellowtail', cursive;
-	font-size:50px;
+	font-family: 'Playball', cursive;
+	font-size:40px;
 
 }
+
+.display-4{
+	font-family: 'Playball', cursive;
+	color:white;
+	font-size: 40px;
+}
+
+#accordion .card{
+	background-color:grey;
+	color:white;
+}
+
+.cv{
+	border-radius:200px 200px 200px 200px;
+	background-color:black;
+	margin-left:0 auto;
+	margin-right: o auto;
+}
+
+.carta{border-radius:200px 200px 200px 200px;
+	background-color:black;
+    margin-left: 0 auto;
+	margin-right:0 auto;
+}
+	
+.curriculum {
+	width:160px;
+	height:160px;
+}
+
+.cartaa{width:160px;
+	height:160px;
+}
+	
 
 body{ background-color: black;
 }
@@ -58,8 +97,8 @@ body{ background-color: black;
 }
 
 .Entrevistas h1{
-	color:rgb(187, 143, 206);
-	font-family: 'Josefin Sans', sans-serif;
+	color:white;
+	font-family: 'Playball', cursive;
 
 }
 
@@ -73,55 +112,43 @@ width:80px;
 height:50px;
 }
 
-.modal-body{
-	width:1500px;
-	height:1500px;
-}
-
-
-
-#sabana2{
-	position:fixed;
+#rita{
 	width:100%;
-	height:100%;
-	background-color:rgba(255,255,255,0.5);
-	display:none;
-	z-index:999;
-	top:0%;
-	left:0;
+	height:180px;
 }
+
+#fabian{
+	width:100%;
+	height:180px;
+}
+
+#sebastian{
+	width:100%;
+	height:180px;
+}
+
+#santiago{
+	width:100%;
+	height:180px;
+}
+.primera{
+	width:100%;
+	height:400px;
+}
+
 .segunda{
-	margin-left:200px;
-}
-
-#sabana3{
-	position:fixed;
 	width:100%;
-	height:100%;
-	background-color:rgba(255,255,255,0.5);
-	display:none;
-	z-index:999;
-	top:0%;
-	left:0;
+	height:400px;
 }
 
 .tercera{
-	margin-left:460px;
-}
-
-#sabana4{
-	position:fixed;
-	width:100%;
-	height:100%;
-	background-color:rgba(255,255,255,0.5);
-	display:none;
-	z-index:999;
-	top:0%;
-	left:0;
+    width:100%;
+	height:400px;
 }
 
 .cuarta{
-	margin-left:300px;
+	width:100%;
+	height:400px;
 }
 
 #conceptos{
@@ -129,7 +156,8 @@ text-align:center
 }
 
 .Definiciones h1{
-	color: rgb(88, 214, 141);
+	color:white;
+	font-family:'Playball', cursive;
 }
 
 .Definiciones p{
