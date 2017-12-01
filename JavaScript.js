@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('[data-toggle="popover"]').popover();
   
   $('.pop').popover({
-	  trigger: 'focus'
+	  trigger: 'focus';
 	});
 
 	$('.pop').click(function(){
@@ -12,6 +12,17 @@ $(document).ready(function(){
 	});
 	
 	
+	
+	$("#ingles").click(function(){
+		$("#spanish").hide();
+		$("#english").fadeIn();
+	})
+	
+	$("#español").click(function(){
+		$("#spanish").fadeIn();
+		$("#english").hide();
+	})
+		
 	
 	
 	

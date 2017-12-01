@@ -7,6 +7,10 @@
   width:100%;
 }
 
+#english{
+	display:none;
+}
+
 .navegador {
   width: 100%;
   height:85px;
@@ -21,19 +25,34 @@
 
 #contenedor .navegador .navbar #name {
 
-	font-size:45px;
+	font-size:47px;
 	color: white;
-	margin-top:-20px;
+	margin-top:-17;
 	font-family:'Marck Script', cursive;
+	
 }
+
 
 #contenedor .navegador .navbar a {
 	
 	color: white;
 	font-size:17px;
-	padding-left:45px;
+	padding-left:35px;
 	text-align:center;
+	
+}
 
+#contenedor .navegador .navbar a:hover {
+   color:grey;
+}
+	
+
+.logo{
+	float:left;
+	width:110px;
+	height:130px;
+	margin-top:0;
+	border-radius:200px 200px 200px 200px;
 }
 
 
@@ -55,8 +74,26 @@
 }
 
 
+.paralax2{
+	background-image:url(Img/sky10.jpg);
+    height:600px; 
+	width:100%;
+	top:0;
+    left:0;
+    padding:0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
 #jumbo1{
 	background-color:white;
+	border-radius: 20px 20px 20px 20px;
 	}
 
 .display-3{
@@ -70,30 +107,33 @@
 }
 
 .bandera{
-	width:80px;
-	height:60px;
+	width:70px;
+	height:50px;
+	margin-left:35%;
 }
 .bandera2{
-	width:80px;
-	height:60px;
+	width:70px;
+	height:50px;
+	
 }
 
 
 #first{
-	height:550px;
+	height:520px;
 }
 
 #second{
 	
-	height:550px;
+	height:520px;
 }
 
 
 .display-4{
 	font-family: 'Playball', cursive;
-	color:white;
+	color:rgb(160, 10, 64);
 	font-size: 40px;
 }
+
 
 #accordion .card{
 	background-color:rgba(0,0,0,5);
@@ -107,13 +147,13 @@
 .cv{
 	border-radius:200px 200px 200px 200px;
 	background-color:black;
-	margin-left:0 auto;
+	margin-left:15%;
 	margin-right: o auto;
 }
 
 .carta{border-radius:200px 200px 200px 200px;
 	background-color:black;
-    margin-left: 0 auto;
+    margin-left: 15%;
 	margin-right:0 auto;
 }
 	
@@ -136,10 +176,11 @@ body{ background-color: black;
    margin:0 30px;
 }
 
-.Entrevistas h1{
-	color:white;
+.Entrevistas h1{	
 	font-family: 'Playball', cursive;
-
+	font-size:60px;
+	color:rgb(160, 10, 64);
+    text-align:center;	
 }
 
 .Entrevistas{
@@ -196,12 +237,19 @@ text-align:center
 }
 
 .Definiciones h1{
-	color:white;
+	color:rgb(160, 10, 64);
 	font-family:'Playball', cursive;
+	font-size:60px;
 }
 
 .Definiciones p{
 	color:white;
+}
+
+#laboral h1{
+	font-family: 'Playball', cursive;
+	font-size:45px;
+	color:rgb(160, 10, 64);	
 }
 
 
@@ -214,7 +262,16 @@ text-align:center
 	float:right;
 }
 
-#laboral h1{
-	text-align:center;
+h2{
+     font-family:'Playball', cursive;
 }
 
+
+#contacto{
+	text-align:center;	
+	font-size:5px;
+	color: black;
+	margin-top:50px;
+	width:400px;
+	border:2px solid black;	
+}
