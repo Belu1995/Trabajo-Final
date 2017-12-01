@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('[data-toggle="popover"]').popover();
   
   $('.pop').popover({
-	  trigger: 'focus';
+	  trigger: 'focus'
 	});
 
 	$('.pop').click(function(){
