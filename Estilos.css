@@ -266,12 +266,17 @@ h2{
      font-family:'Playball', cursive;
 }
 
+.contacto h3{
+	color:rgb(160, 10, 64);	
+	font-family:'Playball', cursive;
+	font-size:40px;
+	
+}
 
-#contacto{
+.contacto{
 	text-align:center;	
-	font-size:5px;
 	color: black;
-	margin-top:50px;
-	width:400px;
-	border:2px solid black;	
+	font-size:20px;
+
+	
 }
