@@ -64,8 +64,6 @@
 	top:0;
     left:0;
     padding:0;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,8 +79,6 @@
 	top:0;
     left:0;
     padding:0;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: scroll;
     background-repeat: no-repeat;
@@ -166,6 +162,9 @@
 .cartaa{width:160px;
 	height:160px;
 }
+
+#cv{width:600px; height:400px;}
+#cp{width:600px; height:400px;}
 	
 
 body{ background-color: black;
@@ -195,22 +194,22 @@ height:50px;
 }
 
 #rita{
-	width:100%;
+	width:80%;
 	height:180px;
 }
 
 #fabian{
-	width:100%;
+	width:80%;
 	height:180px;
 }
 
 #sebastian{
-	width:100%;
+	width:80%;
 	height:180px;
 }
 
 #santiago{
-	width:100%;
+	width:80%;
 	height:180px;
 }
 .primera{
@@ -224,8 +223,9 @@ height:50px;
 }
 
 .tercera{
-    width:100%;
+    width:70%;
 	height:400px;
+	margin-left:67px;
 }
 
 .cuarta{
