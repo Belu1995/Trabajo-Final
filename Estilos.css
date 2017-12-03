@@ -263,6 +263,14 @@ text-align:center
 	float:right;
 }
 
+#tips{height:500px;}
+#aviso2{height:500px;}
+#aviso4{height:500px;}
+#tabla1{height:500px;}
+#tabla2{height:500px;}
+#camino1{height:500px;}
+
+
 h2{
      font-family:'Playball', cursive;
 }
