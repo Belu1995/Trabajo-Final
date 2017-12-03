@@ -68,6 +68,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.paralax11{
+	background-image:url(Img/sky14.jpg);
+    height:100px; 
+	width:100%;
+	top:0;
+    left:0;
+    padding:0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
