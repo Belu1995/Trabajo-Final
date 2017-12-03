@@ -138,6 +138,7 @@
 #accordion .card{
 	background-color:rgba(0,0,0,5);
 	color:white;
+	text-align:justify;
 }
 
 .mb-0 .collapsed{
@@ -280,6 +281,7 @@ h2{
 
 .footer{
 	text-align:center;
+	color:white;
 }
 
 .piemail{
@@ -287,10 +289,6 @@ h2{
 	height:90px;	
 }
 .piegit{
-    width:90px;
-	height:90px;	
-}
-.pielin{
     width:90px;
 	height:90px;	
 }
